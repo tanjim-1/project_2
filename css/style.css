@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0f2656;
+}
+
+header {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.089);
+  padding: 15px 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.logo {
+  width: -1%;
+
+  float: left;
+}
+
+.logo a {
+  display: block;
+}
+.logo img {
+  width: 100%;
+}
+
+.menu {
+  width: 60%;
+
+  float: right;
+}
+
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 0 15px;
+  display: inline-block;
+  color: #112958;
+}
+
+.menu ul li a:hover {
+  color: #0088ff;
+  transition: 0.3s;
+}
+
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+
+.banner {
+  padding: 50px 0;
+}
+
+.wrapper2 {
+  width: 50%;
+
+  margin: 0 auto;
+  overflow: hidden;
+}
+.t_center {
+  text-align: center;
+}
+.b_h1 {
+  margin: 0;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.b_h1 span {
+  color: #1493ff;
+}
+.b_p {
+  line-height: 30px;
+  margin: 10px 0 20px;
+}
+.b_img {
+  width: 80%;
+  margin: 0 auto;
+}
+.b_img img {
+  width: 100%;
+}
+
+.about {
+  padding-bottom: 60px;
+}
+
+.a_left {
+  width: 40%;
+
+  float: left;
+  text-align: right;
+}
+
+.a_left h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: red;
+  margin: 0;
+}
+
+.a_left p {
+  margin: 5px 0 0;
+  line-height: 25px;
+}
+.a_right {
+  width: 56%;
+
+  float: right;
+}
+.a_right h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.service {
+  padding-bottom: 60px;
+}
+.card1 {
+  float: left;
+  width: 27%;
+  /* border: 1px solid black; */
+  padding: 30px 40.5px 40px;
+  margin-right: 40px;
+}
+.card1:first-child {
+  background-color: #fdebed;
+}
+.card1:nth-child(2) {
+  background-color: #eaf9f4;
+}
+.card1:nth-child(3) {
+  background-color: #fff8e8;
+  margin-right: 0;
+}
+
+.card1 img {
+  width: 100%;
+}
+.card_h2 {
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.card_p {
+  margin: 0;
+  line-height: 25px;
+  text-align: center;
+}
+
+footer {
+  background-color: #1493ff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
+footer p a {
+  color: white;
+  text-decoration: none;
+}
